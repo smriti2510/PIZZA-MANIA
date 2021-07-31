@@ -1,0 +1,126 @@
+body {
+  background-color: #07535c;
+  color: #8c8c8c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  }
+
+  .container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .main-content { background-color: #ffffff; }
+  #intro-img {
+  background-image: url(../pizzaimg/main.jpg);
+  background-position: center;
+  background-size:cover;
+  min-height: 425px;
+  }
+  .text-white { color: rgb(255, 255, 255); }
+  .page-header-container { text-align: center; }
+  .page-header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1rem;
+  font-weight: 400;
+  }
+  
+  .section-header {
+  color: #290d08;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  table {
+  width: 100%;
+  border-spacing: 0px;
+  }
+  td {
+  text-align: center;
+  padding: 15px 15px;
+  }
+  .text-left { text-align: left; }
+  th {
+  color: #313131;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  
+  tr:nth-child(odd) { background-color: #e5e8ed; }
+  tr.tr-header {
+  background-color: #a9abad;
+  height: 30px;
+  }
+  .section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  }
+  .section-small {
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20;
+  }
+  p {
+  font-size: 1rem;
+  line-height: 1.7;
+  }
+  .mb-0 { margin-bottom: 0; }
+  img { max-width: 100%; }
+  figure { margin: 0; }
+
+  figcaption { text-align: center; }
+  figcaption span {
+  display: block;
+  color: #757575;
+  font-size: 18px;
+  }
+  .item-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+  .special-items {
+  display: flex;
+  margin-left: -25px;
+  margin-right: -25px;
+  }
+  .special-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  hr {
+  width: 85%;
+  border: 0.5px solid rgb(143, 0, 0);
+  
+  }
+  .contact-link {
+  color: #c7125d;
+  font-weight: 600;
+  text-decoration: none;
+  }
+  a { transition: all 0.3s ease; }
+  .contact-link:hover { color: #f8eb2f; }
+  .footer-text {
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  .footer-link {
+  color: rgb(223, 140, 73);
+  text-decoration: none;
+  }
+  .text-color{
+  color: #b69ff5;
+  }
+  .footer-link:hover { color: #071424; }
